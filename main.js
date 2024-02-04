@@ -3,8 +3,8 @@ let userNickname='Nick';
 let userScore=25;
 
 //Second Task
-let price = prompt('Ціна покупки');
-let quantity = prompt('кількість продуктів');
+let price = Number(prompt('Ціна покупки'));
+let quantity = Number(prompt('кількість продуктів'));
 
 console.log('price', price);
 console.log('quantity', quantity);
